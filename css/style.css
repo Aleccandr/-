@@ -56,6 +56,9 @@ nav li {
 .top-menu a {
 	color: #b2b2b2;
 }
+.top-menu a:hover {
+	color: black;
+}
 #heading {
 	background: gray;
 	margin: 30px 0;
@@ -89,6 +92,9 @@ section {
 }
 .aside-menu a {
 	color: #8f8f8f;
+}
+.aside-menu a:hover {
+	color: black;
 }
 blockquote {
 	margin: 0;
@@ -137,3 +143,57 @@ blockquote cite {
 	position:absolute;
 	top: 80%;
 }
+.form {
+	position: absolute;
+	left: 30%;
+	transform: translate(60%);
+}
+.form-item {
+	margin: 10px;
+  }
+  
+  .form-item input {
+	height: 2rem;
+	width: 200px;
+	
+	border: 1px solid wheat;
+	background-color:#b2b2b2;
+	border-radius: 10px;
+	padding-left: 10px;
+	transition: 0.5s;
+  }
+  
+  .form-item input:hover,
+  .form-item input:focus,
+  .form-item input:active {
+	border: 1px solid white;
+	background-color:rgba(245, 222, 179, 0.5);
+	color: white;
+  }
+  
+  
+  .form-item input::placeholder {
+	font-family: cursive;
+  }
+  
+  .form-item input:hover::placeholder,
+  .form-item input:focus::placeholder,
+  .form-item input:active::placeholder{
+	color: white;
+}
+.btn {
+	position: absolute;
+	left: 4%;
+	border: 0;
+	border-radius: 10px;
+	background-color: #b2b2b2;
+	color: #7e7e7e;
+	width: 220px;
+	height: 40px;
+	cursor: pointer;
+	transition: 1s;
+  }
+  .btn:hover {
+	border: 1px solid black;
+	background-color:rgba(245, 222, 179, 0.5);
+  }

@@ -34,7 +34,7 @@
 	<div id="heading">
 		<h1>Министерсво Открытий</h1>
 	</div>
-	<aside>
+    <aside>
 		<nav>
 			<ul class="aside-menu">
 				<li> <a href="about"> Квесты</a></li>
@@ -45,13 +45,34 @@
 			</ul>
 		</nav>
 		</aside>
-		<section>
-			<blockquote>
-				<p>
-					“МИНИСТЕРСТВО ОТКРЫТИЙ" – это выездные образовательные квесты и квизы для детей в школу, в детский сад, в лагерь; в каникулы, на праздник, на день рождения, на выпускной.”
-				</p>
-				<cite>Мария Соколова, Маргарита Кудрявцева</cite>
-				</blockquote>
-			</section>
+    <section>
+        <form class="form">
+            <div class="form-item">
+              <label for="first_name">
+                <input name="first_name" type="text" placeholder="Ваше имя" required>
+              </label>
+            </div>
+          
+            <div class="form-item">
+              <label for="sur_name">
+                <input name="sur_name" type="text" placeholder="Ваша фамилия">
+              </label>
+            </div>
+          
+            <div class="form-item">
+              <label for="email">
+                <input name="email" type="email" placeholder="Ваш e-mail">
+              </label>
+            </div>
+            <div class="form-item">
+                <label for="email">
+                  <input name="text" type="text" placeholder="Контактный телефон">
+                </label>
+              </div>
+            <button class="btn" type="submit">
+                Отправить
+              </button>
+        </form>
+    </section>
 </body>
 </html>
