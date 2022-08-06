@@ -79,6 +79,7 @@ section {
 }
 .aside-menu li {
 	font-weight: 300;
+	font-size: 20px;
 	list-style-type: square;
 	border-top: 2px solid #e7e7e7;
 }
@@ -122,12 +123,17 @@ blockquote cite {
 	position: absolute;
 	top: 1%;
 	left: 200px;
+	display: inline-block;
+}
+.vk1 {
+	position: absolute;
+	top: 10%;
 }
 .tg {
 	position: absolute;
-	top: 70px;
+	top: 45%;
 }
 .inst {
-	position: absolute;
-	top: 140px;
+	position:absolute;
+	top: 80%;
 }
